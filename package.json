@@ -1,0 +1,39 @@
+{
+  "name": "hubot-shorts",
+  "description": "A Hubot script that checks if the temperature is high enough to wear shorts",
+  "version": "0.0.14",
+  "author": "Marthyn Olthof",
+  "license": "MIT",
+
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "shorts",
+    "wear",
+    "hoppinger",
+    "coworker"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:marthyn/hubot-shorts.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/marthyn/hubot-shorts/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "*"
+  },
+
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*",
+    "hubot": "*",
+    "sinon": "*",
+    "sinon-chai": "*"
+  },
+
+  "main": "index.coffee"
+}
